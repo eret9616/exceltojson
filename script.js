@@ -6,6 +6,9 @@ const options = {
   onError: function (err) {
     alert(err.toString());
   },
+  onChange: function () {
+    updateTable();
+  },
 };
 const editor = new JSONEditor(container, options);
 
@@ -177,7 +180,6 @@ function removeCol(index) {
 }
 
 // 绑定按钮点击事件
-document.getElementById("updateTable").addEventListener("click", updateTable);
 document.getElementById("addRow").addEventListener("click", addRow);
 document.getElementById("addCol").addEventListener("click", addCol);
 
