@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSON和Excel表格展示</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/jsoneditor@9.10.2/dist/jsoneditor.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/handsontable@12.3.0/dist/handsontable.full.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>JSON和Excel表格展示</h1>
+      <div class="editor-container">
+        <div id="jsoneditor" style="height: 300px"></div>
+        <button id="updateTable">更新</button>
+        <button id="addRow">增加行</button>
+        <button id="addCol">增加列</button>
+      </div>
+      <div id="hot"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jsoneditor@9.10.2/dist/jsoneditor.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/handsontable@12.3.0/dist/handsontable.full.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
