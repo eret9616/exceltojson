@@ -116,7 +116,7 @@ function updateTable() {
       data: data,
     });
   } catch (error) {
-    alert("无效的JSON格式");
+    // alert("无效的JSON格式");
   }
 }
 
