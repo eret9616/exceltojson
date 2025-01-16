@@ -18,7 +18,7 @@ const hot = new Handsontable(hotContainer, {
   data: [],
   rowHeaders: true,
   colHeaders: true,
-  height: "100%",
+  height: "auto",
   width: "100%",
   licenseKey: "non-commercial-and-evaluation",
   contextMenu: {
